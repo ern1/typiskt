@@ -1,6 +1,3 @@
-//#import "templates/resume.typ": *
-//#import "templates/typiskt.typ": *
-
 #let hBar() = [
   #h(0.2em) | #h(0.2em)
 ]
@@ -9,7 +6,7 @@
 //Load Balancing of Parallel Tasks using Memory Bandwidth Restrictions.
 #let eduEntries = (
 gu: (
-    title: [Master's degree, Computer Science], // TODO: Ändra titel så det är rätt program? (game design/tech)
+    title: [Master's degree, Computer Science],
     society: [University of Gothenburg/Chalmers],
     date: [2020 - ],
     location: [Gothenburg, Sweden],
