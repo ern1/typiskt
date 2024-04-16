@@ -1,11 +1,12 @@
-#import "resume-content.typ": sections
+#import "resume-content.typ": eduEntries, expEntries, projEntries
 #import "templates/typiskt.typ": resume, mainEntry, article, util, colors, icons, fonts
 
 #show: resume.with(
-  firstName: "Your",
-  lastName: "Name",
-  description: "Description",
-  profile-image: "img/avatar.png"
+  firstName: "Tommy",
+  lastName: "Ernsund",
+  description: "Software Developer",
+  //profile-image: "assets/dog1-vt_svgo.svg"
+  profile-image: "img/profile1-1.png",  // TODO: Change? maybe stamp "temp" on top of it..
 )
 
 
@@ -13,19 +14,22 @@
 = Education
 
 #mainEntry(..eduEntries.at("gu"))
-
+#mainEntry(..eduEntries.at("mdh"))
 
 
 = Professional Experience
 
 #mainEntry(..expEntries.at("evtest"))
-
+#mainEntry(..expEntries.at("noteab"))
+#mainEntry(..expEntries.at("voltair"))
 
 
 = Projects
 
 #mainEntry(..projEntries.at("gea"))
-
+#mainEntry(..projEntries.at("app"))
+#mainEntry(..projEntries.at("unityAR"))
+#mainEntry(..projEntries.at("volvoce"))
 
 
 
