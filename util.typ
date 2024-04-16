@@ -1,4 +1,14 @@
 
+
+// temp
+// #let showPNGFromB64(data) = {
+//   let make-image(data, encoding: "png") = {
+//     "<svg id=\"example1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <image xlink:href=\"data:image/" + encoding + ";base64," + data + "\"/> </svg>"
+//     image.decode(make-image(data), height: 10%)
+//   }
+// }
+
+
 /*#show "ArtosFlow": name => box[
   #box(image(
     "assets/dog1.png",
@@ -67,14 +77,16 @@
 //#imageIcon("assets/dog1.png", h: 1em)
 //#iconWithText("assets/dog1.png", "texr", h:1em)
 
-/*#let linkItemStyle(icon, liink, iconColor: accentColor, linkColor: accentColor2) = {
-  set text(fill: linkColor)
-  box(height: 1em, baseline: 20%, fill: linkColor)[
-    #pad(left: 0.4em)[#image(item.icon)]
-  ] + h(2pt)
+// #let linkItemStyle(icon, liink, iconColor: accentColor, linkColor: accentColor2) = {
+//   set text(fill: linkColor)
+//   box(height: 1em, baseline: 20%, fill: linkColor)[
+//     #pad(left: 0.4em)[#image(item.icon)]
+//   ] + h(2pt)
   
-  liink
-}*/
+//   liink
+// }
+
+
 
 
 

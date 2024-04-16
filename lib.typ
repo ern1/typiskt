@@ -1,19 +1,25 @@
 #import "colors.typ": *
+#import "util.typ" as util
+
+#import "icons.typ" as icons
+#import "colors.typ" as colors
+
+
 
 #let theme = (
 /*bg-page: white,
   bg-sidebar: gradient.linear(
-    (md.grey-400, 0%),
-    (md.grey-400, 65%),
-    (md.grey-100, 100%),
+    (md-grey-400, 0%),
+    (md-grey-400, 65%),
+    (md-grey-100, 100%),
     angle: 30deg,
   ),*/
-  bg-page: md.grey-200.lighten(15%),
+  bg-page: md-grey-200.lighten(15%),
   bg-sidebar: white,
 
-  primary: md.grey-800,
-  primaryLight: md.grey-700,
-  primaryDark: md.grey-900,
+  primary: md-grey-800,
+  primaryLight: md-grey-700,
+  primaryDark: md-grey-900,
 
   accentPrimary: oggole.blue,
   accentSecondary: oggole.green,
@@ -74,7 +80,7 @@
   }
 
   show link: it => {
-    set text(weight: "regular", fill: md.blue-grey-700)
+    set text(weight: "regular", fill: md-blue-grey-700)
     it
   }
 

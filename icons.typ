@@ -52,24 +52,30 @@
 /* FOR SIMPLE ICONS */
 // https://simpleicons.org/
 
-/*#let siBasePath = (
-  default: "assets/simple-icons/",
-  color: "assets/simple-icons/colored/",
-)
+// #let siBasePath = (
+//   default: "assets/simple-icons/",
+//   color: "assets/simple-icons/colored/",
+// )
 
-#let simplePath(brandName, colored: false) = {
-  let basePath = siBasePath.default
-  if colored {
-    basePath = siBasePath.color
-  }
-  basePath + brandName + "-color.svg"
-}*/
+// #let simplePath(brandName, colored: false) = {
+//   let basePath = siBasePath.default
+//   if colored {
+//     basePath = siBasePath.color
+//   }
+//   basePath + brandName + "-color.svg"
+// }
 
 #let siBasePath = "assets/simple-icons/"
 
 #let simplePath(brandName) = {
   siBasePath + brandName + ".svg"
 }
+
+
+
+#let 
+
+
 
 
 /*

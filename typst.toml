@@ -1,0 +1,19 @@
+[package]
+name = "typiskt"
+version = "0.1.0"
+compiler = "0.11.0"
+entrypoint = "lib.typ"
+authors = ["Tommy Ernsund <https://github.com/ern1>"]
+license = "MIT"
+description = ""
+keywords = ["Resume", "CV", "Curriculum Vitae", "Modern"]
+categories = ["cv"]
+disciplines = []
+exclude = [""]
+homepage = "https://github.com/ern1/typiskt"
+repository = "https://github.com/ern1/typiskt"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = ""
