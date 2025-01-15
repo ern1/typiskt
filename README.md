@@ -1,4 +1,3 @@
 # Typst resume template
 
-<img src="https://raw.githubusercontent.com/ern1/resume/main/output/resume.svg?token=GHSAT0AAAAAACOG5RULPPN5O4LYPLLGXGGEZONFHVQ" width="60%"/>
-
+<img src="https://raw.githubusercontent.com/ern1/typiskt/99af92d01db08d138d7c4a776dbf10bb99c4d998/output/resume.svg" width="60%"/>
